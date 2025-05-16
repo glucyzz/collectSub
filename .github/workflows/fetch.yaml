@@ -1,4 +1,4 @@
-name: 订阅源抓取
+name: Fetch Subscriptions Source
 
 # 触发条件
 on:
