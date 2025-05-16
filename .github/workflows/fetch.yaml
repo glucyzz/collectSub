@@ -5,12 +5,12 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '5 */1 * * *'
+    - cron: '0 */4 * * *'
   watch:
     types: started
   # - cron: '0 3,12 * * *'
-  # -'0 */1 * * *'
-  # -该规则表示每天从 0 点开始，每隔 1 个小时执行一次任务
+  # -'0 */4 * * *'
+  # -该规则表示每天从 0 点开始，每隔 4 个小时执行一次任务
   # 表达式生成  https://crontab.guru/
 
  
