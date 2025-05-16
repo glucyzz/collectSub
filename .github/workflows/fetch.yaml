@@ -1,4 +1,4 @@
-name: Fetch Subscriptions Source
+name: 订阅源抓取
 
 # 触发条件
 on:
@@ -20,10 +20,10 @@ jobs:
     steps:
 
     - name: 迁出代码
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: 安装Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
       
